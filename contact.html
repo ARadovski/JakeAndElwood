@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jake & Elwood Agency</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/1532705d9e.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header class="header grid-global">
+            <div class="header-content">
+
+                <a class="header-link-logo" href="#"><img class="logo logo-header" src="images/logo.png" alt="Jake & Elwood logo"></a>
+
+                <nav class="nav">
+
+                    <button aria-label="Close menu" class="btn-close"><i class="fas fa-times"></i></button>
+
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="index.html">home</a></li>
+                        <li><a class="nav-link" href="about.html">about us</a></li>
+                        <li><a class="nav-link nav-link-current" href="#">contact</a></li>
+                    </ul>
+                </nav>
+
+                <button aria-label="Open Menu" class="btn-menu"><i class="fas fa-bars"></i></button>
+
+            </div>
+        </header>
+
+        <main class="main main-about grid-global">
+          
+            <h1 class="main-title">Contact.</h1>
+            <p class="subtitle main-subtitle">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+            <img class="img-main" src="images/contact.jpg" alt="a row of cute mailboxes in tropical shrubs">
+            <div class="main-text about-text contact-text">
+
+                <h3 class="main-h3 underline">Getting in touch with us</h3>
+                <p >You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <label class="fname-label" for="fname">First name</label>
+                <input id="fname" type="text">
+                <label class="lname-label" for="lname">Last name</label>
+                <input id="lname" type="text">
+                <label class="message-label" for="message">Message</label>
+                <textarea id="message"></textarea>
+                <button class="btn btn-primary btn-form" type="submit">send</button>
+            </form>
+
+        </main>
+
+        <footer>
+            <div class="footer-content grid-global">
+                <ul class="footer-social">
+                    <li class="social-icon"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="social-icon"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+                <div class="footer-text">
+                    <img class="logo logo-footer" src="images/logo.png" alt="Jake & Elwood logo in gray">
+                    <p class="footer-p">Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
+                    <p class="footer-small">© Jake&Elwood 2019</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
